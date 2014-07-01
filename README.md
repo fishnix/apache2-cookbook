@@ -2,6 +2,8 @@
 
 Installs and configures Apache HTTPD 
 
+*Note* This wasnt really written for sharing, and I will be moving to the community apache cookbook
+
 # Requirements
 
 # Attributes

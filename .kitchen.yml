@@ -17,9 +17,6 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[apache]
+      - recipe[apache2]
     attributes:
-      s9y:
-        sites:
-          - "test_kitchen_ci"
-        base_dir: "/var/www/vhost"
+      

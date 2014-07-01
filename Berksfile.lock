@@ -1,0 +1,8 @@
+DEPENDENCIES
+  yum (~> 3.2.1)
+  yum-epel (~> 0.3.6)
+
+GRAPH
+  yum (3.2.2)
+  yum-epel (0.3.6)
+    yum (~> 3.0)
