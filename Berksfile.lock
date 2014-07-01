@@ -1,8 +1,12 @@
 DEPENDENCIES
+  apache2
+    path: .
+    metadata: true
   yum (~> 3.2.1)
   yum-epel (~> 0.3.6)
 
 GRAPH
+  apache2 (0.0.3)
   yum (3.2.2)
   yum-epel (0.3.6)
     yum (~> 3.0)
